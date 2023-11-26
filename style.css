@@ -1,0 +1,397 @@
+body {
+  height: 790px;
+  width: 1024px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+#hero {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 64px auto;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px; 
+}
+
+h1 span {
+  color: #EE24FF;
+}
+
+p {
+  color: #828282;
+  text-align: justify;
+  width: 100%;
+}
+
+.main-p p {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default paddings */
+}
+
+.main-p {
+  width: 540px;
+  height: 107px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+.text-detail {
+  text-align: center;
+}
+
+.subtext {
+  width: 626px;
+  height: 21px;
+  margin: 0 auto;
+}
+
+p, a {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 22px;
+}
+
+.ltgray_f {
+  color: #3F3D56;
+}
+
+.cmpany_name {
+  color: #828282;
+}
+
+.dif_font_weight{
+  font-weight: 700;
+}
+
+.centralize {
+  text-align: center;
+}
+
+.line {
+  width: 391px;
+  height: 0px;
+  margin: 0px auto;
+  border: 1px solid #ECEFF2;
+}
+
+footer a {
+  line-height: 147.682%; /* 22.152px */ 
+  color: #3F3D56;
+  font-weight: 700;
+}
+
+footer {
+  margin-top: 16px;
+}
+
+footer a + a {
+  margin-left: 42px;
+}
+
+.footer-image {
+  position: relative;
+  inset: 641px 0px 0px 0px;
+  width: 1024px;
+  height: 104px;
+  margin-bottom: 0;
+}
+
+.globe {
+  position: absolute;
+  top: 29.8px;
+  right: 126px;
+  bottom: 55.8px;
+  left: 63.4px;
+  z-index: 2;
+}
+
+.image-box {
+  width: 350px;
+  height: 238px;
+  justify-content: center;
+  background-color: white;
+  margin: auto;
+  position: relative;
+}
+
+.flower-top {
+  position: absolute;
+  top: 0px;
+  bottom: 174.77px;
+}
+
+.flower-left {
+  position: absolute;
+  left: 282.42px;
+  top: 99.31px;
+}
+
+.earth-ring {
+  position: absolute;
+  left: 6.8px;
+  top: 61.8px;
+  z-index: 3;
+}
+
+.south-america {
+  position: absolute;
+  right: 226px;
+  top: 118px;
+  left: 100px;
+}
+
+.north-america {
+  position: absolute;
+  inset: 49.7px 238px 117px 67.5px;
+}
+
+.greenland {
+  position: absolute;
+  inset: 51.5px 215px 156px 103px;
+}
+
+.greenland2 {
+  position: absolute;
+  inset: 73.9px 216px 160px 129px;
+}
+
+.africa {
+  position: absolute;
+  inset: 101px 184px 86.4px 132px;
+}
+
+.madagascar {
+  position: absolute;
+  inset: 135px 184px 93.2px 163px;
+}
+
+.uk {
+  position: absolute;
+  inset: 81.3px 209px 148px 137px;
+}
+
+.eurasia {
+  position: absolute;
+  inset: 55.9px 131px 116px 137px;
+}
+
+.phili {
+  position: absolute;
+  inset: 124px 156px 106px 189px;
+}
+
+.indonesia {
+  position: absolute;
+  inset: 122px 149px 109px 196px;
+}
+
+.jap {
+  position: absolute;
+  inset: 101px 139px 130px 206px;
+}
+
+.nw {
+  position: absolute;
+  inset: 128px 135px 104px 206px;
+}
+
+.australia {
+  position: absolute;
+  inset: 135px 134px 84.6px 197px;
+}
+
+.floor {
+  position: absolute;
+  inset: 237px 43.02px 0.1px 189px;
+}
+
+.r-foot {
+  position: absolute;
+  inset: 224px 86.5px 0.75px 244px;
+  z-index: 2;
+}
+
+.l-foot {
+  position: absolute;
+  inset: 224px 109px 0.75px 222px;
+  z-index: 2;
+}
+
+.legs {
+  position: absolute;
+  inset: 115px 78.3px 18.7px 216px;
+  z-index: 1;
+}
+
+.r-thig {
+  position: absolute;
+  inset: 206px 112px 11px 230px;
+}
+
+.left-thig {
+  position: absolute;
+  inset: 206px 89.6px 11px 252px;
+}
+
+.torso {
+  position: absolute;
+  inset: 58.6px 72.1px 104px 234px;
+}
+
+.detail {
+  position: absolute;
+  inset: 85.5px 89.2px 142px 241px;
+}
+
+.up-arm {
+  position: absolute;
+  inset: 55.6px 83.6px 146px 204px;
+  z-index: 1;
+}
+
+.up-hand {
+  position: absolute;
+  inset: 47.3px 135px 173px 200px;
+}
+
+.left-arm {
+  position: absolute;
+  inset: 68.2px 75px 128px 216px;
+  z-index: 4;
+}
+
+.left-hand {
+  position: absolute;
+  inset: 81.1px 127px 144px 206px;
+  z-index: 3;
+}
+
+.head {
+  inset: 37.1px 82.4px 181px 246px;
+  z-index: 1;
+}
+
+.scalp {
+  inset: 34.4px 81.3px 188px 244px;
+  z-index: 1;
+}
+
+.headband {
+  inset: 35.3px 82.1px 188px 251px;
+  z-index: 2;
+}
+
+.ponytail {
+  inset: 24.2px 46.5px 172px 263px;
+  z-index: 1;
+}
+
+.backhair {
+  position: absolute;
+  inset: 32.4px 77.2px 182px 248px;
+  z-index: 0;
+}
+
+.medium-marker {
+  inset: 48.6px 238px 142px 80.4px;
+}
+
+.medium-marker-dot {
+  inset: 96.4px 257px 135px 86.3px;
+}
+
+.medium-marker-point {
+  inset: 57.3px 250px 171px 90px;
+}
+
+.medium-marker-point-shadow {
+  inset: 58.1px 248px 170px 94.1px;
+}
+
+.medium-marker-shadow {
+  inset: 49.1px 238px 142px 90.3px;
+}
+
+.big-marker {
+  inset: 23px 168px 152px 139px;
+}
+
+.big-marker-dot {
+  inset: 86.6px 194px 143px 147px;
+}
+
+.big-marker-shadow {
+  inset: 23.7px 168px 152px 152px;
+  z-index: 3;
+}
+
+.big-marker-point {
+  inset: 34.6px 184px 190px 152px;
+}
+
+.big-marker-point-shadow {
+  inset: 35.7px 182px 189px 158px;
+}
+
+.small-marker {
+  inset: 45px 115px 158px 209px;
+}
+
+.small-marker-dot {
+  inset: 79.5px 137px 154px 208px;
+}
+
+.small-marker-shadow {
+  inset: 46.5px 115px 158px 212px;
+}
+
+.small-marker-point {
+  inset: 51.5px 124px 179px 218px;
+}
+
+.small-marker-point-shadow {
+  inset: 52.7px 123px 178px 220px;
+}
+
+.south-america,
+.north-america,
+.greenland,
+.greenland2,
+.africa,
+.madagascar,
+.uk,
+.eurasia,
+.phili,
+.indonesia,
+.jap,
+.nw,
+.australia,
+.head,
+.scalp,
+.headband,
+.ponytail,
+.medium-marker,
+.big-marker,
+.small-marker,
+.medium-marker-shadow,
+.big-marker-shadow,
+.small-marker-shadow,
+.medium-marker-point,
+.medium-marker-point-shadow,
+.big-marker-point,
+.big-marker-point-shadow,
+.small-marker-point,
+.small-marker-point-shadow,
+.medium-marker-dot,
+.big-marker-dot,
+.small-marker-dot {
+    position: absolute;
+    /* Your existing inset or positioning styles */
+    z-index: 2;
+}
+
